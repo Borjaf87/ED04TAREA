@@ -1,4 +1,4 @@
-package com.mycompany.ed04tarea;
+package com.mycompany.ed04tarea.cuentas;
 
 
 public class CCuenta {

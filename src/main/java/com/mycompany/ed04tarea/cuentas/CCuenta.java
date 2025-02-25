@@ -25,6 +25,10 @@ public class CCuenta {
         saldo=sal;
     }
 
+    /**
+     * saldo disponible
+     * @return 
+     */
     public double estado()
     {
         return saldo;

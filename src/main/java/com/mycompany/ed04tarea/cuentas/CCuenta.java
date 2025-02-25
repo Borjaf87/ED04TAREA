@@ -1,9 +1,14 @@
 package com.mycompany.ed04tarea.cuentas;
-
+/**
+ * Clase de representación de la cuenta bancaria
+ * @author Borja
+ */
 
 public class CCuenta {
 
-
+/**
+ * Nombre del titular de la cuenta bacnaria, saldo y tipo de interés mostrado
+ */
     private String nombre;
     private String cuenta;
     private double saldo;
@@ -24,6 +29,11 @@ public class CCuenta {
     {
         return saldo;
     }
+    /**
+     * ingresa dinero a la cuenta.
+     * @param cantidad
+     * @throws Exception 
+     */
 
     public void ingresar(double cantidad) throws Exception
     {
